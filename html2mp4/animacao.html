@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  html, body { margin: 0; height: 100%; background: #0e1530; overflow: hidden; }
+  .bola { position: absolute; left: 50%; top: 0; width: 90px; height: 90px; margin-left: -45px;
+    border-radius: 50%; background: #ffb703;
+    animation: pula 1.4s cubic-bezier(.5,0,.5,1) infinite alternate; }
+  @keyframes pula { to { top: calc(100% - 90px); background: #fb5607; } }
+</style>
+</head>
+<body><div class="bola"></div></body>
+</html>
